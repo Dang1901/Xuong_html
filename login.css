@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    background: #ececec;
+    padding: 0 20px 0 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row {
+    width: 1920px;
+    height: 800px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.side-image {
+    /* background-color: aqua; */
+    /* background-image: url("./IMG/img1.png"); */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px; */
+}
+
+.img {
+    margin: 25px;
+    height: 750px;
+    background-color: aqua;
+    background-image: url(./IMG/img1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px;
+   
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-box {
+    align-items: center;
+    width: 420px;
+    height: 522px;
+    box-sizing: border-box;
+}
+
+.button-box{ 
+    width: 220px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-convert {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#convert {
+    top: 0;
+    left: 0;
+    position:  absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f , #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+label {
+    margin: 15px 0 10px 0;
+}
+.custom-font-size {
+    font-size: 12px;
+}
+.form-check-input[type=checkbox] {
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 0;
+    margin: 15px 4px 20px 0;
+}
+.form_check {
+    display: flex;
+    justify-content: space-between;
+
+}
+.forgot_password {
+    margin: 15px 4px 20px 0;
+    align-items: center;
+}
+.button_submit {
+    margin-top: 40px;
+}
+
+
+
+
+
